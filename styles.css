@@ -22,6 +22,21 @@ h1 {
         -1px 1px 0 #000,
         1px 1px 0 #000;
     text-transform: uppercase;
+    margin-bottom: 10px;  /* Reduced from 30px */
+}
+
+.description {
+    font-family: 'Metal Mania', cursive;
+    color: #333;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-shadow: 
+        1px 1px 0 #ff4500,
+        -1px -1px 0 #ff4500,  
+        1px -1px 0 #ff4500,
+        -1px 1px 0 #ff4500,
+        1px 1px 0 #ff4500;
     margin-bottom: 30px;
 }
 
