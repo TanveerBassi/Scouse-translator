@@ -16,6 +16,8 @@ h1 {
     width: 300px;
     padding: 10px;
     font-size: 16px;
+    display: block;
+    margin: 0 auto;
 }
 
 #translate-btn {
@@ -25,6 +27,8 @@ h1 {
     color: white;
     border: none;
     cursor: pointer;
+    display: block;
+    margin: 10px auto 0;
 }
 
 #phrases-list {
