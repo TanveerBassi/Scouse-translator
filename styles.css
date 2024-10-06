@@ -28,18 +28,33 @@ h1 {
     border: none;
     cursor: pointer;
     display: block;
-    margin: 10px auto 0;
+    margin: 10px auto;
 }
 
 #phrases-list {
     margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 800px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .phrase {
-    margin-bottom: 10px;
     padding: 10px;
     background-color: #fff;
     border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Fixed height for uniform squares */
+    font-size: 14px; /* Adjust as needed */
+    overflow: hidden; /* In case of long phrases */
 }
 
 #result {

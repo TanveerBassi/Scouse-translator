@@ -11,6 +11,22 @@ const scousePhrases = [
     { scouse: "Ginnel", english: "Alleyway" },
     { scouse: "Mam", english: "Mom" },
     { scouse: "Dad", english: "Dad" },
+    // New phrases added
+    { scouse: "Go 'ed", english: "Go ahead" },
+    { scouse: "Sound", english: "Great" },
+    { scouse: "Boss", english: "Excellent" },
+    { scouse: "Wool", english: "Non-Scouser" },
+    { scouse: "Devoed", english: "Devastated" },
+    { scouse: "Jarg", english: "Fake" },
+    { scouse: "Scran", english: "Food" },
+    { scouse: "Bevvie", english: "Beer" },
+    { scouse: "Bizzies", english: "Police" },
+    { scouse: "Ozzy", english: "Hospital" },
+    { scouse: "Lolly ice", english: "Ice lolly" },
+    { scouse: "Swerve", english: "Avoid" },
+    { scouse: "Chocka", english: "Very busy" },
+    { scouse: "Antwacky", english: "Old-fashioned" },
+    { scouse: "Baltic", english: "Very cold" },
 ];
 
 // Function to populate the phrases list
